@@ -5,14 +5,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-:root{
-    --sayayin: rgb(240, 216, 0);
-    --sayanblue:rgb(47, 161, 255);
-    --fondosombra: rgb(255, 255, 255);
-    --cartafondo: rgba(194, 194, 194, 0.411);
-    --letra:1.8rem;
-    --letcolor:red;
-}
+
 body{
     background-image: url(imagen/gif.gif);
     background-attachment: fixed;
@@ -39,7 +32,7 @@ h1.titulo{
     padding: 10px 0;
     margin-top: 10px;
     max-height: 350px;
-    filter:drop-shadow(0px -10px 10px var(--sayayin));
+    filter:drop-shadow(0px -10px 10px yellow);
 }
 .imagen:hover{
     height: 60%;
@@ -50,7 +43,7 @@ h1.titulo{
     padding: 10px 0;
     margin-top: 10px;
     max-height: 350px;
-    filter:drop-shadow(0px -10px 10px var(--sayanblue));
+    filter:drop-shadow(0px -10px 10px black);
 }
 h1.nombre{
     font-family:"Mirza", serif;
@@ -59,7 +52,7 @@ h1.nombre{
     color: #00189e;
     margin: 0 10px;
     font-size: var(--letra);
-    filter: drop-shadow(2px 2px 2px var(--sayayin));
+    filter: drop-shadow(2px 2px 2px white);
 }
 
 div{
@@ -67,9 +60,9 @@ div{
     width: 300px;
     height: 500px;
     padding: 5px;
-    background: var(--cartafondo);
+    background: rgba(194, 194, 194, 0.425);
     border-radius: 20px;
-    box-shadow:1px 1px 10px var(--fondosombra);
+    box-shadow:1px 1px 10px rgb(0, 0, 0);
     margin: 20px;
     text-align: center;
     place-content: center;
@@ -86,7 +79,7 @@ div:hover{
     margin: 20px;
     text-align: center;
     color: #000000;
-    filter:drop-shadow(0px -10px 10px var(--sayanblue));
+    filter:drop-shadow(0px -10px 10px red);
 }
 
 
